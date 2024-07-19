@@ -1,0 +1,99 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Estilos generales del body */
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+header a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+/* Estilos del resumen */
+.summary {  
+    margin-bottom: 20px;
+}
+
+.summary p {
+    font-style: italic;
+}
+
+/* Estilos de la experiencia profesional */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job .role {
+    font-weight: bold;
+}
+
+.job .location,
+.job .dates {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
